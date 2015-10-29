@@ -10,6 +10,8 @@ public class Main {
 		ViewResolver view = new SolidView();
 		
 		view.getView();
+		
+		System.out.println("This is the new view");
 	}
 
 }
