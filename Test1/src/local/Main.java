@@ -6,6 +6,10 @@ public class Main {
 		// TODO Auto-generated method stub
 
 		System.out.println("This is the template project");
+		
+		ViewResolver view = new SolidView();
+		
+		view.getView();
 	}
 
 }
