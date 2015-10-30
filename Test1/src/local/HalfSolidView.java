@@ -8,9 +8,4 @@ public class HalfSolidView implements ViewResolver{
 		
 	}
 
-	@Override
-	public void getViewData() {
-		System.out.println("This is half solid view Data");
-	}
-
 }

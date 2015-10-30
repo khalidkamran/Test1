@@ -11,8 +11,8 @@ public class Main {
 		
 		view.getView();
 		
-		System.out.println("This is the new view Data");
-		view.getViewData();
+		System.out.println("This is the new view");
+		view.getView();
 	}
 
 }
