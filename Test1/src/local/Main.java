@@ -12,6 +12,7 @@ public class Main {
 		view.getView();
 		
 		System.out.println("This is the new view");
+		view.getView();
 	}
 
 }
