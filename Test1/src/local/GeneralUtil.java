@@ -9,4 +9,9 @@ public class GeneralUtil {
 		}
 		return false;
 	}
+	
+	public boolean checkDb(String str){
+		if(str.length() != 0 && str.equalsIgnoreCase("Db")) return true;
+		return false;
+	}
 }
