@@ -13,7 +13,9 @@ public class HalfSolidView implements ViewResolver{
 
 	@Override
 	public void getViewData() {
-		System.out.println("This is half solid view data");
+		for(int i = 0; i < 5; i++){
+			System.out.println("This is half solid view data");
+		}
 		
 	}
 
